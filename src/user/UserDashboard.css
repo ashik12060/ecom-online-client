@@ -1,0 +1,27 @@
+.order-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.order-table th, .order-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.order-table th {
+    background-color: #ce1212;
+    text-align: center;
+}
+
+.order-table td {
+    text-align: center;
+}
+
+.order-table tr:nth-child(even) {
+    background-color: #3f0b0b;
+}
+
+.order-table tr:hover {
+    background-color: #e00606;
+}

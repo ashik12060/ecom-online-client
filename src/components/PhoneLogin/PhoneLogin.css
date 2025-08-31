@@ -1,0 +1,28 @@
+.log-bg{
+    background-color: rgb(16 185 129);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.log-color{
+    color: rgb(16 185 129);
+}
+.log-bg-color{
+    background-color: rgb(16 185 129);
+
+}
+.log-bg-2{
+    background-color: rgb(8, 131, 90);
+    
+}
+
+.opt-container {
+    display: flex;
+     justify-content: space-between;
+  }
+  .opt-container input {
+     flex:-1;
+      padding-top:10px;
+      padding-bottom:10px
+  }
+  

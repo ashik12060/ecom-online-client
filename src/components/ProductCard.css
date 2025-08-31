@@ -1,0 +1,31 @@
+.feature-btn{
+    background-color: #0c2685;
+    color:white;
+    border:none;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.advisor-img{
+    height: 150px;
+    
+    background-color: white;
+}
+
+.card-styles{
+    background-color: white;
+    height:130px;
+}
+.card-styles:hover{
+    background-color: #F22929;
+    color:white;
+    transition: 1s;
+}
+.link-to{
+    color:red;
+}
+.card-styles:hover .link-to{
+    color:white;
+}
+.card-styles:hover .link-to{
+    color:white;
+}

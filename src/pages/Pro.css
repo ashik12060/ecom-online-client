@@ -1,0 +1,20 @@
+.product-header{
+    color:white;
+    background-color: #F22929;
+    text-align: center;
+    border-radius: 10px;
+    padding: 8px 20px;
+    font-weight: bold;  
+}
+.singlepro-bg{
+    background-color: white;
+    box-shadow: 1px 1px 5px 5px white;
+}
+.see-more-button{
+    color:white;
+    background-color: #F22929;
+    border:none;
+    padding:5px 8px;
+    border-radius: 5px;
+    font-weight: bold;
+}

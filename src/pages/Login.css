@@ -1,0 +1,18 @@
+.font-color{
+    color: #BF006A;
+  }
+.bg-color{
+    background-color:  #BF006A;
+  }
+  .sizing-img{
+    width: 50px;
+  }
+
+  .admin-login{
+    background-color: white;
+  }
+  .google-img{
+    width: 30px;
+    border:none;
+    border-radius: 20px;
+  }

@@ -1,0 +1,157 @@
+/* 
+.img-container{
+    position: relative;  
+}
+.merketed{
+    position:absolute;
+    bottom: 1px;
+    left:10%;
+    color:#1c4cfc;
+}
+.merketed-fifth{
+    position:absolute;
+    bottom: 1px;
+    left:13%;
+    color:#1c4cfc;
+}
+.merketed-fourth{
+    position:absolute;
+    bottom: 1px;
+    left:25%;
+    color:#1c4cfc;
+}
+
+.para-style{
+    position: absolute;
+    top: 10px;
+    left: 270px;    
+}
+.custom-clr{
+    color:#1c4cfc;
+}
+.para-style h1{
+    color: #e02828;
+    font-weight: bold;
+    font-size: 70px;
+}
+.para-style h3{
+    color:#e02828;
+    font-weight: bold;
+    font-size: 40px;
+}
+.carousel-button{
+    font-size: 2px;
+   background-color: #979797;
+   border-radius: 25px;
+   padding: 10px;
+   color:aquamarine;
+}
+.img-style{
+    height: 520px;
+}
+@media only screen and (max-width: 600px) {
+    .img-style{
+        height: 400px;
+    }
+  }
+@media only screen and (max-width: 400px) {
+    .img-style{
+        height: 300px;
+    }
+  }
+
+
+
+.caro-btn{
+    background-color: #FF8F27;
+    color:white;
+    border:none;
+    padding: 10px 40px;
+    border-radius:  10px;
+}
+.caro-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.bg-service{
+    background-color: #f8f6f6;
+}
+.img-style2{
+    width: 400px;  
+    height: 500px; 
+}
+.service-cont{
+    background-color: white;
+}
+.extended-size{
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+
+.logo-carousel2{
+    width: 70px;
+} */
+
+
+.img-container {
+    position: relative;
+}
+
+.merketed,
+.merketed-fourth,
+.merketed-fifth {
+    position: absolute;
+    bottom: 1px;
+    left: 10%;
+    color: #1c4cfc;
+}
+
+.para-style {
+    position: absolute;
+    top: 10px;
+    left: 10%; /* Adjust this value based on your design */
+}
+
+.para-style h1 {
+    color: #e02828;
+    font-weight: bold;
+    font-size: 5vw; /* Use vw for font sizes */
+}
+
+.para-style h3 {
+    color: #e02828;
+    font-weight: bold;
+    font-size: 3vw; /* Use vw for font sizes */
+}
+
+.carousel-button {
+    font-size: 1vw; /* Use vw for font sizes */
+    background-color: white;
+    border-radius: 1vw;
+    padding: 0.5vw;
+    color: aquamarine;
+}
+
+.img-style {
+    max-width: 100%; /* Make images responsive */
+    height: 520px; /* Maintain aspect ratio */
+}
+
+@media only screen and (max-width: 600px) {
+    .img-style {
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .img-style {
+        height: 200px;
+    }
+}
+
+.logo-carousel2 {
+    width: 5vw; /* Use vw for logo size */
+}
+
+/* Add more media queries if needed */

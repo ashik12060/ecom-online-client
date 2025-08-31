@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "img": "./images/bg.jpg",
+      "name": "Rowshan Jahan Parvin",
+      "designation": "Partner, Medisure Pharma",
+      "email": "business@medisurepharmabd.com",
+      "speech": "",
+      "responsibilities": "",
+      "education": ""
+    },
+    
+    
+    {
+      "id": 2,
+      "img": "./images/bg.jpg",
+      "name": "Masud Ahmed Sabuj",
+      "designation": "Partner, Medisure Pharma",
+      "email": "business@medisurepharmabd.com",
+      "speech": "",
+      "responsibilities": "",
+      "education": ""
+    },
+    
+    
+    {
+      "id": 3,
+      "img": "./images/bg.jpg",
+      "name": "Sadek Ahmed Sykat",
+      "designation": "Managing Partner, Medisure Pharma",
+      "email": "business@medisurepharmabd.com",
+      "speech": "",
+      "responsibilities": "",
+      "education": ""
+    }
+    
+    
+    
+  ]

@@ -1,0 +1,62 @@
+.typing-effect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .typing-animation {
+    overflow: hidden; 
+    white-space: nowrap;
+    margin: 0 auto;
+    border-right: 1px solid rgb(255, 0, 0); 
+    animation: typing 4s steps(40, end) infinite, blink-caret 0.75s step-end infinite;
+  }
+   /* The typing animation */
+   @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+.typing-effect1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .typing-animation1 {
+    overflow: hidden; 
+    white-space: nowrap;
+    margin: 0 auto;
+    /* 0.15em */
+    border-right: 1px solid rgb(255, 0, 0); 
+    animation: typing1 5s steps(40, end) infinite, blink-caret 0.75s step-end infinite;
+  }
+  
+  
+ 
+  /* The typing animation 1 */
+  @keyframes typing1 {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  /* The blinking cursor animation */
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: rgb(255, 0, 0);
+    }
+  }
+ 
+  

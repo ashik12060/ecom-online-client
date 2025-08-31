@@ -1,0 +1,48 @@
+   .table-header-container {
+    width: 100%;
+  }
+  
+  .header-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .browse-categories,
+  .search-products,
+  .additional-info,
+  .hotline {
+    margin-bottom: 10px;
+  }
+  
+  .browse-categories {
+    flex: 1;
+  }
+  
+  .search-products {
+    flex: 2;
+  }
+  
+  .additional-info {
+    flex: 2;
+  }
+  
+  .hotline {
+    flex: 1;
+  }
+  
+  @media (max-width: 992px) {
+    .additional-info,
+    .hotline {
+      display: none;
+    }
+  
+    .header-row {
+        display: flex;
+      flex-direction: row;
+    }
+  }
+  

@@ -1,0 +1,52 @@
+.order-list {
+    margin-top: 20px;
+  }
+  
+  .order-items {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .order-item {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  
+  .product-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .product-item {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .product-item:last-child {
+    border-bottom: none;
+  }
+  
+  /* Pagination Styles */
+.pagination {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination-btn {
+  border: 1px solid white;
+  background-color: white;
+  color: #333;
+  padding: 5px 15px;
+  margin: 0 2px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pagination-btn.active {
+  background-color: #007bff;
+  color: white;
+}
